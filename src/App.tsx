@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <>
       <Hee textNode={myName} />
-      <Lii />
+      <Lii listItem={ourNames} />
       <h1>ㅎㅇ</h1>
     </>
   );

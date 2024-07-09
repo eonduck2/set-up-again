@@ -1,10 +1,13 @@
 import React from "react";
-import ourNames from "../static/names";
 
-const Lii: React.FC = () => {
+type TListItem = {
+  listItem: string[];
+};
+
+const Lii: React.FC<TListItem> = ({ listItem }) => {
   return (
     <ul>
-      {ourNames.map((element, index) => (
+      {listItem.map((element, index) => (
         <li key={index}>{element}</li>
       ))}
     </ul>
