@@ -33443,17 +33443,63 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _static_basic_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../static/basic-data */ "./static/basic-data.tsx");
+/* harmony import */ var _MyName__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MyName */ "./src/MyName.tsx");
+/* harmony import */ var _U_Li__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./U-Li */ "./src/U-Li.tsx");
 
+
+
+
+const App = () => {
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_MyName__WEBPACK_IMPORTED_MODULE_2__["default"], { textNode: _static_basic_data__WEBPACK_IMPORTED_MODULE_1__["default"] }),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_U_Li__WEBPACK_IMPORTED_MODULE_3__["default"], null),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "\u314E\u3147")));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
+
+
+/***/ }),
+
+/***/ "./src/MyName.tsx":
+/*!************************!*\
+  !*** ./src/MyName.tsx ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 const Hee = ({ textNode }) => {
     return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, textNode);
 };
-const App = () => {
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Hee, { textNode: _static_basic_data__WEBPACK_IMPORTED_MODULE_1__["default"] }),
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "\u314E\u3147")));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hee);
+
+
+/***/ }),
+
+/***/ "./src/U-Li.tsx":
+/*!**********************!*\
+  !*** ./src/U-Li.tsx ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _static_names__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../static/names */ "./static/names.tsx");
+
+
+const Lii = () => {
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, _static_names__WEBPACK_IMPORTED_MODULE_1__["default"].map((element, index) => (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", { key: index }, element)))));
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Lii);
 
 
 /***/ }),
@@ -33470,6 +33516,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const myName = "이종수";
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (myName);
+
+
+/***/ }),
+
+/***/ "./static/names.tsx":
+/*!**************************!*\
+  !*** ./static/names.tsx ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const ourNames = ["테스트1", "테스트2", "테스트3", "테스트4", "테스트5"];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ourNames);
 
 
 /***/ })
@@ -33568,7 +33630,6 @@ __webpack_require__.r(__webpack_exports__);
 
 (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(document.getElementById("root")).render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().StrictMode), null,
     react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_App__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
-// ReactDOM.render(<App />, document.getElementById("root"));
 
 /******/ })()
 ;
