@@ -33446,6 +33446,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _MyName__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MyName */ "./src/MyName.tsx");
 /* harmony import */ var _U_Li__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./U-Li */ "./src/U-Li.tsx");
 /* harmony import */ var _static_names__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/names */ "./static/names.tsx");
+/* harmony import */ var _Su__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Su */ "./src/Su.tsx");
+
 
 
 
@@ -33455,6 +33457,7 @@ const App = () => {
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_MyName__WEBPACK_IMPORTED_MODULE_2__["default"], { textNode: _static_basic_data__WEBPACK_IMPORTED_MODULE_1__["default"] }),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_U_Li__WEBPACK_IMPORTED_MODULE_3__["default"], { listItem: _static_names__WEBPACK_IMPORTED_MODULE_4__["default"] }),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Su__WEBPACK_IMPORTED_MODULE_5__["default"], { h1TN: "\uD14C\uC2A4\uD2B8" }),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "\u314E\u3147")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
@@ -33477,6 +33480,30 @@ __webpack_require__.r(__webpack_exports__);
 
 const Hee = ({ textNode }) => {
     return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, textNode);
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hee);
+
+
+/***/ }),
+
+/***/ "./src/Su.tsx":
+/*!********************!*\
+  !*** ./src/Su.tsx ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+let styles = {
+    color: "blue",
+};
+const Hee = ({ h1TN }) => {
+    return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", { style: styles }, h1TN);
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hee);
 
