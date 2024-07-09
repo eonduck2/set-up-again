@@ -1,13 +1,18 @@
 import React from "react";
+import myName from "../static/basic-data";
 
-const Hee: React.FC = () => {
-  return <h1>hoo</h1>;
+interface HeeProps {
+  textNode: string;
+}
+
+const Hee: React.FC<HeeProps> = ({ textNode }) => {
+  return <h1>{textNode}</h1>;
 };
 
 const App: React.FC = () => {
   return (
     <>
-      <Hee />
+      <Hee textNode={myName} />
       <h1>ㅎㅇ</h1>
     </>
   );
